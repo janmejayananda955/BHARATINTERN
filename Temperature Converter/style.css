@@ -5,15 +5,14 @@ body {
     align-items: center;
     min-height: 100vh;
     font-family: monospace, sans-serif;
-    color: #000000;
-    background: linear-gradient(90deg, rgb(107, 87, 255) 0%, rgb(236, 244, 223) 100%, rgb(255, 255, 255) 100%);
+    color: #ffffff;
+    background: rgb(36, 36, 36);
 }
 
 .container {
-    background: rgba(70, 53, 255, 0.522);
+    background: rgb(21, 0, 255);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 4px 10px rgba(0, 0, 0, 0.3);
     width: 85%;
     max-width: 800px;
     min-height: 300px;
@@ -42,14 +41,14 @@ input {
     font-family: monospace;
     padding: 5px;
     outline: none;
-    background: rgba(0, 212, 255, 0.3);
+    background: rgba(151, 245, 88, 0.519);
     border-color: rgba(255, 255, 255, 0.6);
     color: darkblue;
     font-size: 18px;
 }
 
 input::placeholder {
-    color: crimson;
+    color: rgb(251, 255, 0);
 }
 
 /* Responsive CSS */
