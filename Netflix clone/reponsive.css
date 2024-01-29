@@ -1,0 +1,51 @@
+/* For screens smaller than 768px width (tablets and smaller devices) */
+@media (max-width: 768px) {
+  .navabar {
+    padding: 1.5% 10%;
+  }
+  .netflix_logo {
+    width: 15%;
+    height: 59%;
+    position: absolute;
+    left: 2%;
+}
+.navbar_nav_items {
+  position: relative;
+  right: 4%;
+}
+  .section1 {
+    width: 100%;
+  }
+  .section1_inside_container {
+    margin: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* For screens smaller than 480px width (smaller devices like smartphones) */
+@media (max-width: 480px) {
+}
+@media (max-width: 1300px) {
+  /* .hero_bg_overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 44rem;
+    inset: 0;
+  } */
+  .showcase-animation {
+    position: absolute;
+    width: 72%;
+    left: 65px;
+    top: 76px;
+    z-index: -1;
+  }
+  .section3_image .showcase-animation {
+    position: absolute;
+    width: 62%;
+    top: 10%;
+    left: 90px;
+  }
+}
